@@ -500,8 +500,6 @@ function resetRobot() {
 function getLevel(){
 	if(document.getElementById("input_l_qm").checked){
 		return "qm";
-	} else if(document.getElementById("input_l_ef").checked){
-		return "ef";
 	} else if(document.getElementById("input_l_qf").checked){
 		return "qf";
 	} else if(document.getElementById("input_l_sf").checked){

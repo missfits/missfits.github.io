@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022ilpe",
+        "defaultValue":"2022casj",
         "required":"true",
         "disabled":"true"
       },
@@ -23,7 +23,6 @@ var config_data = `
         "type":"level",
         "choices":{
           "qm":"Quals<br>",
-          "ef":"Eighth-Final<br>",
           "qf":"Quarter-Final<br>",
           "sf":"Semi-Final<br>",
           "f":"Final"
@@ -80,7 +79,7 @@ var config_data = `
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
-      "Auto Aquired Cargo": {
+      "Intake During Auto": {
         "code":"ac",
         "title": "Picked up more cargo?",
         "type":"bool"
