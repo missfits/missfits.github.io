@@ -1,6 +1,6 @@
 var config_data = `
 {
-  "title":"Scouting PASS 2022",
+  "title":"Scouting 2022",
   "page_title":"Rapid React",
   "elements":{
     "prematch": {
@@ -79,9 +79,14 @@ var config_data = `
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
+       "Cargo Missed": {
+        "code":"al",
+        "title": "Cargo Missed",
+        "type":"counter"
+      },
       "Intake During Auto": {
         "code":"ac",
-        "title": "Picked up more cargo?",
+        "title": "Picked up more cargo? Butterdusted?",
         "type":"bool"
       }
     },
@@ -96,14 +101,14 @@ var config_data = `
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
+       "Cargo Missed": {
+        "code":"tl",
+        "title": "Cargo Missed",
+        "type":"counter"
+      },
       "Was Defended": {
         "code":"wd",
         "title": "Was Defended",
-        "type":"bool"
-      },
-      "Wallbot?": {
-        "code":"wbt",
-        "title": "Wallbot?",
         "type":"bool"
       },
       "Cargo Intake From": {
@@ -140,10 +145,10 @@ var config_data = `
         },
         "defaultValue":"x"
       },
-      "Started Climb before Endgame": {
+      "Time Left for Cimb": {
         "code":"be",
-        "title": "Started climb before EndGame",
-        "type":"bool"
+        "title": "Time Left for Hangar",
+        "type":"text"
       },
       "Num of Robots Climbed": {
         "code":"cn",
@@ -152,64 +157,6 @@ var config_data = `
       }
     },
     "postmatch": {
-      "Driver Skill": {
-        "code":"ds",
-        "title": "Driver Skill",
-        "type":"radio",
-        "choices":{
-          "n":"Not Effective<br>",
-          "a":"Average<br>",
-          "v":"Very Effective<br>",
-          "x":"Not Observed"
-        },
-        "defaultValue":"x"
-      },
-      "Defense Rating": {
-        "code":"dr",
-        "title": "Defense Rating",
-        "type":"radio",
-        "choices":{
-          "b":"Below Average<br>",
-          "a":"Average<br>",
-          "g":"Good<br>",
-          "e":"Excellent<br>",
-          "x":"Did not play defense"
-        },
-        "defaultValue":"x"
-      },
-       "Strategically held enemy cargo during match?": {
-        "code":"hc",
-        "title": "Enemy Balls",
-        "type":"bool"
-      },
-       "Swerve drive?": {
-        "code":"sd",
-        "title": "Swerve drive?",
-        "type":"bool"
-      },
-       "Speed Rating": {
-        "code":"sr",
-        "title": "Speed Rating",
-        "type":"radio",
-        "choices":{
-          "1":"1 (slow)<br>",
-          "2":"2<br>",
-          "3":"3<br>",
-          "4":"4<br>",
-          "5":"5 (fast)"
-        },
-        "defaultValue":"3"
-      },
-      "Died/Tipped": {
-        "code":"d",
-        "title": "Died/Tipped",
-        "type":"bool"
-      },
-      "Make good alliance partner?": {
-        "code":"all",
-        "title": "Make good alliance partner?",
-        "type":"bool"
-      },
       "Comments": {
         "code":"co",
         "title": "Comments",
